@@ -28,6 +28,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/jacobcollier-tenison/GitHub/csci340lab7/SoccerRoster/Pages/Roster/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUm9zdGVyL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jacobcollier-tenison/GitHub/csci340lab7/SoccerRoster/Pages/Roster/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUm9zdGVyL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jacobcollier-tenison/GitHub/csci340lab7/SoccerRoster/Pages/Roster/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUm9zdGVyL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jacobcollier-tenison/GitHub/csci340lab7/SoccerRoster/Pages/Roster/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUm9zdGVyL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jacobcollier-tenison/GitHub/csci340lab7/SoccerRoster/Pages/Roster/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUm9zdGVyL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/jacobcollier-tenison/GitHub/csci340lab7/SoccerRoster/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
