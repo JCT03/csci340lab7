@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using SoccerRoster.Data;
 using SoccerRoster.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace SoccerRoster.Pages.Roster
 {
@@ -21,12 +22,21 @@ namespace SoccerRoster.Pages.Roster
 
         public IList<Player> Player { get;set; } = default!;
 
+        [BindProperty(SupportsGet = true)]
+         public string? SearchString { get; set; }
+
+    public string? MovieGenre { get; set; }
+
         public async Task OnGetAsync()
         {
-            if (_context.Player != null)
+            var players = from p in _context.Player
+                 select p;
+            if (!string.IsNullOrEmpty(SearchString))
             {
-                Player = await _context.Player.ToListAsync();
+                players = players.Where(s => s.Name.Contains(SearchString));
             }
+
+            Player = await players.ToListAsync();
         }
     }
 }
